@@ -39,6 +39,7 @@ dependencies {
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
 	compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('org.assertj:assertj-core:3.8.0')
 	compile('org.springframework.boot:spring-boot-starter-jdbc')
 	runtime('com.h2database:h2')
 }
